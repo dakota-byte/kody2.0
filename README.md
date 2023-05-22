@@ -6,8 +6,6 @@ The second generation Kody Bot, inspired by Kody 1.0, this time by more friends 
 
 **cogs** contains each module that each of us will be working on, either separately or in groups
 
-**myenv** is a virtual environment with all of the projects dependencies (or imports). Rather than download the libraries on your PC, you will run this virtual environment from terminal
-
 **bot.py** is the "brain" of the bot. all functionality will be in modules from /cogs/
 
 **.gitignore** prevents the json file from being uploaded to discord, because it contains a secret token
