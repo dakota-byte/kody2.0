@@ -6,9 +6,13 @@ The second generation Kody Bot, inspired by Kody 1.0, this time by more friends 
 
 **cogs** contains each module that each of us will be working on, either separately or in groups
 
+**myenv** is a virtual environment with all of the projects dependencies (or imports). Rather than download the libraries on your PC, you will run this virtual environment from terminal
+
 **bot.py** is the "brain" of the bot. all functionality will be in modules from /cogs/
 
 **.gitignore** prevents the json file from being uploaded to discord, because it contains a secret token
+
+**requirements.txt** includes all the dependencies we need
 
 ### How to begin coding
 0. Make sure you have python installed. https://www.python.org/downloads/
@@ -17,7 +21,13 @@ The second generation Kody Bot, inspired by Kody 1.0, this time by more friends 
 
 2. Open the repo in VSCode
 
-3. run "myenv/Scripts/activate" and you should notice a (myenv) prefix in your terminal. You are now using the virtual environment
+3. You should create a virtual environment to keep your dependencies consistent with others.
+
+Run "python -m venv myenv" to create your environment
+
+run "myenv/Scripts/activate" and you should notice a (myenv) prefix in your terminal. You are now using the virtual environment (very easy yes yes!)
+
+now run "pip install -r requirements.txt" to download all dependencies to your venv
 
 4. Duplicate the modularization_test.py file from /cogs/. You can also refer to greetings.py. RENAME THIS FILE! KEEP THIS IN COGS!
 
