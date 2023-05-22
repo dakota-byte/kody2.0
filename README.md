@@ -27,6 +27,8 @@ Run "python -m venv myenv" to create your environment
 
 run "myenv/Scripts/activate" and you should notice a (myenv) prefix in your terminal. You are now using the virtual environment (very easy yes yes!)
 
+NOTE: To leave the venv, run "deactivate"
+
 now run "pip install -r requirements.txt" to download all dependencies to your venv
 
 4. Duplicate the modularization_test.py file from /cogs/. You can also refer to greetings.py. RENAME THIS FILE! KEEP THIS IN COGS!
@@ -41,4 +43,4 @@ This is where you will implement your piece of Kody. Feel free to import anythin
 
 with your bot token. Sharing this token will allow someone else to turn on your bot with their own code.
 
-6. To run Kody, run "python .\bot.py"
+6. To run Kody, run "python .\bot.py". You can press CTRL C to stop running it.
