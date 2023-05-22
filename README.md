@@ -23,7 +23,7 @@ The second generation Kody Bot, inspired by Kody 1.0, this time by more friends 
 
 3. You should create a virtual environment to keep your dependencies consistent with others.
 
-Run "python -m venv myenv" to create your environment
+Run "python -m venv myenv" to create your environment. If you choose to name it something else, update that in config.json
 
 run "myenv/Scripts/activate" and you should notice a (myenv) prefix in your terminal. You are now using the virtual environment (very easy yes yes!)
 
