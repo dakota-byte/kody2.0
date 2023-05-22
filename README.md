@@ -13,6 +13,8 @@ The second generation Kody Bot, inspired by Kody 1.0, this time by more friends 
 **.gitignore** prevents the json file from being uploaded to discord, because it contains a secret token
 
 ### How to begin coding
+0. Make sure you have python installed. https://www.python.org/downloads/
+
 1. Clone a copy of this repo to your system
 
 2. Open the repo in VSCode
