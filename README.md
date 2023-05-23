@@ -14,6 +14,8 @@ The second generation Kody Bot, inspired by Kody 1.0, this time by more friends 
 
 **requirements.txt** includes all the dependencies we need
 
+NOTE: you may also need git (https://git-scm.com/downloads) and recommended visual studio code (https://code.visualstudio.com/)
+
 ### How to begin coding
 0. Make sure you have python installed. https://www.python.org/downloads/
 
@@ -21,7 +23,7 @@ The second generation Kody Bot, inspired by Kody 1.0, this time by more friends 
 
 2. Open the repo in VSCode
 
-3. You should create a virtual environment to keep your dependencies consistent with others.
+3. You should create a virtual environment to keep your dependencies consistent with others. Open a powershell terminal in VSCode
 
 Run "python -m venv myenv" to create your environment. If you choose to name it something else, update that in config.json
 
@@ -42,5 +44,9 @@ This is where you will implement your piece of Kody. Feel free to import anythin
 }
 
 with your bot token. Sharing this token will allow someone else to turn on your bot with their own code.
+
+To create a bot, go to https://discord.com/developers/applications and click "new application". Go to the bot tab to copy the token.
+
+To invite your bot to a server, go to OAuth2, then under "Default Authorization Link" select "In-app authorization" and check Bot and Administrator. Now under OAuth2 go to URL generator, select Bot, and administator again, and now go to the link that it provides you to add the bot to a server (or give it to me to add to the server and i'll give you your own channel)
 
 6. To run Kody, run "python .\bot.py". You can press CTRL C to stop running it.
