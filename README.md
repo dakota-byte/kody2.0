@@ -29,7 +29,7 @@ Run "python -m venv myenv" to create your environment. If you choose to name it 
 
 run "myenv/Scripts/activate" and you should notice a (myenv) prefix in your terminal. You are now using the virtual environment (very easy yes yes!)
 
-NOTE: To leave the venv, run "deactivate"
+NOTE: To leave the venv, run "deactivate". remember to use this everytime you develop
 
 now run "pip install -r requirements.txt" to download all dependencies to your venv
 
