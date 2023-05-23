@@ -32,4 +32,16 @@ async def main():
 async def on_ready():
     print(f'Logged in as {bot.user.name}')
 
+@bot.event
+async def on_member_join(member):
+    # Assign a role to the member
+    role = discord.utils.get(member.guild.roles, name="Intern 💾")
+    if role is not None:
+        await member.add_roles(role)
+
+    # Send a welcome message
+    channel = discord.utils.get(member.guild.text_channels, name="general")
+    if channel is not None:
+        await channel.send(f"come quick, {member.mention}, we need help.")
+
 asyncio.run(main())
